@@ -82,22 +82,8 @@ monitors:
     method: GET
     expectStatus: 200
     
-  - id: ybt
-    name: 一本通
-    url: 'http://ybt.ssoier.cn:8088/'
-    method: GET
-    expectStatus: 200
-    
   - id: darkbzoj
     name: DarkBZOJ
     url: 'https://darkbzoj.cc/'
     method: GET
     expectStatus: 200
-    
-  - id: pyyzoj
-    name: PYYZOJ
-    url: 'http://112.36.16.166:88/'
-    description: 'szz AK IOI'
-    method: GET
-    expectStatus: 200
-    linkable: false
