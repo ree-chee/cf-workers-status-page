@@ -45,3 +45,59 @@ monitors:
     url: 'https://onlinejudge.org/'
     method: GET
     expectStatus: 200
+    
+  - id: libreoj
+    name: LibreOJ
+    url: 'https://loj.ac'
+    method: GET
+    expectStatus: 200
+    
+  - id: acwing
+    name: AcWing
+    url: 'https://www.acwing.com/'
+    method: GET
+    expectStatus: 200
+    
+  - id: hydro
+    name: HydroOJ
+    url: 'https://hydro.ac/'
+    method: GET
+    expectStatus: 200
+    
+  - id: vjudge
+    name: Virtual Judge
+    url: 'https://vjudge.net/'
+    method: GET
+    expectStatus: 200
+    
+  - id: poj
+    name: PKU JudgeOnline
+    url: 'http://poj.org/'
+    method: GET
+    expectStatus: 200
+    
+  - id: vijos
+    name: Vijos
+    url: 'https://vijos.org/'
+    method: GET
+    expectStatus: 200
+    
+  - id: ybt
+    name: 一本通
+    url: 'http://ybt.ssoier.cn:8088/'
+    method: GET
+    expectStatus: 200
+    
+  - id: darkbzoj
+    name: DarkBZOJ
+    url: 'https://darkbzoj.cc/'
+    method: GET
+    expectStatus: 200
+    
+  - id: pyyzoj
+    name: PYYZOJ
+    url: 'http://112.36.16.166:88/'
+    description: 'szz AK IOI'
+    method: GET
+    expectStatus: 200
+    linkable: false
