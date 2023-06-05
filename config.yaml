@@ -87,3 +87,10 @@ monitors:
     url: 'https://darkbzoj.cc/'
     method: GET
     expectStatus: 200
+    
+  - id: pyyzoj
+    name: PYYZ OnlineJudge
+    url: 'https//pyyz.eu.org'
+    method: GET
+    expectStatus: 200
+    linkable: false
