@@ -94,3 +94,4 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false
+# add these to trigger the action
